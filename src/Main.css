@@ -7,3 +7,7 @@ main {
 body {
   background-color: tan;
 }
+
+button {
+  margin: 1vw 0.5vw;
+}

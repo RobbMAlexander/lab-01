@@ -23,6 +23,14 @@
 
 * Actual: (:-:)
 
+### Lab 03: Feature timelines
+
+#### Displayed Modals
+
+* Estimated: 90 Minutes
+
+* Actual: (3:20-4:15) (Note: for modal functionality with image & description. Further styling remains)
+
 <!-- 
 
 # Getting Started with Create React App
