@@ -27,7 +27,8 @@ class HornedBeast extends React.Component {
             src={this.props.imageUrl}
             alt={this.props.description}
             title={this.props.title}
-            onClick={this.handleVote} />
+            onClick={() => this.props.handleRenderModal(this.props.imageUrl, this.props.description)}
+            />
           <Card.Body className="p-3 mb-2 bg-info text-white">
             <h3>{this.props.title}</h3>
             Votes :{this.state.votes}
