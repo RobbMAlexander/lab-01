@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-
+import  Button  from 'react-bootstrap/Button';
 import './HornedBeast.css';
 
 class HornedBeast extends React.Component {
@@ -8,7 +8,7 @@ class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      votes: 0,
+      votes: 0
     }
   }
 
@@ -31,7 +31,11 @@ class HornedBeast extends React.Component {
             />
           <Card.Body className="p-3 mb-2 bg-info text-white">
             <h3>{this.props.title}</h3>
-            Votes :{this.state.votes}
+            <Button className='button' variant="primary" 
+            onClick={this.state.handleVote}>
+              Vote
+            </Button>
+            <p>❤️'s :{this.state.votes}</p>
           </Card.Body>
         </Card>
       </article>

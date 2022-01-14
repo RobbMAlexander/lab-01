@@ -1,7 +1,8 @@
 # Horned Beasts
 
+## Project Overview
 
-
+This set of labs ...
 
 ### Lab 02: Feature timelines
 
@@ -25,11 +26,23 @@
 
 ### Lab 03: Feature timelines
 
-#### Displayed Modals
+#### Displayed Modals - 01/12/2022
+
+* Feature Description: Implement modal popup featuring only clicked-on beast with image & image description text
 
 * Estimated: 90 Minutes
 
 * Actual: (3:20-4:15) (Note: for modal functionality with image & description. Further styling remains)
+
+### Lab 04: Feature timelines
+
+#### Forms and Filter - 01/13/2022
+
+* Feature Description: Implement Form component (using Bootstrap) to allow for user filtering of displayed cards.
+
+* Estimated: 60 Minutes
+
+* Actual: (:-:)
 
 <!-- 
 

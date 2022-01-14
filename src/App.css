@@ -37,6 +37,10 @@
   }
 }
 
-.modal-70w {
-  width: 70%;
+.modal {
+  width: 100%;
+}
+
+.blurb {
+  text-align: center;
 }
